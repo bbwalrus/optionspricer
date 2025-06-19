@@ -1,7 +1,7 @@
 import sys
 import os
 import streamlit as st
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import numpy as np
 
 # idk this fixed the import error
