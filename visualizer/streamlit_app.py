@@ -13,7 +13,7 @@ from models.binomial_tree import binomial_tree
 from models.monte_carlo import monte_carlo
 
 # title and layout
-st.set_page_config(page_title="Options Price Visualizer", layout="centered")
+st.set_page_config(page_title="Options Price Visualizer", layout="centered", initial_sidebar_state="expanded")
 st.title("📈 Options Pricing Visualizer")
 
 # sidebar for input parameters
